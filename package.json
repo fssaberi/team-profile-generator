@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "inquirer": "^8.2.0",
-    "jest": "^27.4.5"
+    "inquirer": "^8.2.0"
   },
   "name": "team-profile-generator",
   "description": "",
@@ -10,10 +9,12 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
   "scripts": {
     "test": "jest",
-    "start": "index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
